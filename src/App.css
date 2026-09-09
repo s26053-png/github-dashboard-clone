@@ -16,22 +16,18 @@
   font-size: 20px;
 }
 
-.repo-name {
+.repo-dropdown {
+  position: relative;
   display: flex;
-  gap: 4px;
-  font-size: 14px;
-  font-weight: 600;
   align-items: center;
 }
 
-.repo-dropdown {
-  position: relative;
+.user-name {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .repo-button {
-  display: flex;
-  align-items: center;
-  gap: 4px;
   border: none;
   background: none;
   font-size: 14px;
@@ -39,10 +35,17 @@
   cursor: pointer;
 }
 
+.dropdown-button {
+  border: none;
+  background: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+
 .dropdown-menu {
   position: absolute;
-  top: 35px;
-  left: 0;
+  top: 30px;
+  right: 0;
   width: 220px;
   padding: 8px;
   background: white;
@@ -51,11 +54,16 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.dropdown-menu div {
+.dropdown-menu button {
+  display: block;
+  width: 100%;
   padding: 8px;
+  border: none;
+  background: none;
+  text-align: left;
   cursor: pointer;
 }
 
-.dropdown-menu div:hover {
+.dropdown-menu button:hover {
   background: #f6f8fa;
 }
