@@ -1,1 +1,71 @@
 @import "tailwindcss";
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+}
+
+.github-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.menu-button {
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+.repo-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.repo-button {
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.dropdown-button {
+  border: none;
+  background: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 220px;
+  padding: 8px;
+  background: white;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+  background: #f6f8fa;
+}
