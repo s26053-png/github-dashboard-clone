@@ -1,17 +1,18 @@
-import HeaderTabs from "./components/한승희천재";
+import HeaderLeft from "./components/headerLeft";
+import HeaderActions from "./components/HeaderActions";
+import HeaderTabs from "./components/한글의현재";
+import "./App.css";
 
 function App() {
   return (
-    <div
-      style={{
-        backgroundColor: "#ffffff",
-        minHeight: "100vh",
-        paddingTop: "20px",
-      }}
-    >
-      {/* 승희님이 만든 하단 탭 메뉴 컴포넌트! */}
+    <>
+      <header className="github-header">
+        <HeaderLeft />
+        <HeaderActions />
+      </header>
+
       <HeaderTabs repoCount={9} starCount={1} />
-    </div>
+    </>
   );
 }
 
