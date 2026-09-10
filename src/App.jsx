@@ -1,6 +1,6 @@
 import HeaderLeft from "./components/headerLeft";
 import HeaderActions from "./components/HeaderActions";
-import HeaderTabs from "./components/한글의현재";
+import HeaderTabs from "./components/한승희천재";
 import "./App.css";
 
 function App() {
